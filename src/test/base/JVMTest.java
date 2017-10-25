@@ -2,6 +2,7 @@ package test.base;
 
 import junit.framework.TestCase;
 /**
+ * JVM
  * 1，程序计数器（Program Counter Register）
  * 2，虚拟机栈（JVM Stack）
  * 4堆区（Heap）：堆区是理解Java GC机制最重要的区域，没有之一。
