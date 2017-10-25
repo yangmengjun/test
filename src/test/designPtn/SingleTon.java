@@ -1,5 +1,9 @@
 package test.designPtn;
-
+/**
+ * 单例模式
+ * @author Json
+ *
+ */
 public class SingleTon {
     private final static SingleTon instance = new SingleTon();
 
