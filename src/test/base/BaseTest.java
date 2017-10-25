@@ -1,6 +1,11 @@
 package test.base;
 
 import junit.framework.TestCase;
+/**
+ * 基础测试题
+ * @author Json
+ *
+ */
 @Description(value="This is my base class",type=1)
 public class BaseTest extends TestCase {
     public static int a = 1;
