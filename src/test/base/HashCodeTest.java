@@ -1,5 +1,9 @@
 package test.base;
-
+/**
+ * 哈希值测试
+ * @author Json
+ *
+ */
 public class HashCodeTest {
 	public static void main(String[] args) {
 		String a = "abc";
