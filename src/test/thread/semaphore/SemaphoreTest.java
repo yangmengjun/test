@@ -7,6 +7,7 @@ import java.util.concurrent.Semaphore;
  * 假若一个工厂有5台机器，但是有8个工人，一台机器同时只能被一个工人使用，只有使用完了，其他工人才能继续使用
  * @author Json
  * 
+ * Semaphore可以用于做流量控制， 特别是公用资源有限的应用场景， 比如数据库连接。 
  * 
  * 总结：
 
