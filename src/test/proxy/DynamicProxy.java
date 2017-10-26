@@ -2,7 +2,11 @@ package test.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-
+/**
+ * java动态代理
+ * @author Json
+ *
+ */
 public class DynamicProxy implements InvocationHandler {
 	// 　这个就是我们要代理的真实对象
 	private Object subject;
