@@ -1,5 +1,8 @@
 package test.base;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import junit.framework.TestCase;
 /**
  * 基础测试题
@@ -11,10 +14,13 @@ public class BaseTest extends TestCase {
     public static int a = 1;
 
     public static void main(String[] args) {
-    	testInteger();
-        String s;
-        System.out.println(2.0-1.10); //0.8999999999999999
-        //  System.out.println("s=" + s);  无法编译通过，但是只是在引用处报错无法编译
+    String str="家用型号#150 and 商用型号#300 or 无敌型#405 and 超人型#800";
+    	String reg="#";
+    	Pattern p=Pattern.compile(reg);
+    	Matcher m=p.matcher(str);
+    	while(m.find()){
+    	    System.out.format("%s；%s%n",m.group(1),m.group(1));
+    	}
     }
     
     /**
@@ -223,6 +229,8 @@ public class BaseTest extends TestCase {
         StringBuffer ss5 = new StringBuffer("abc");
         StringBuffer ss6 = new StringBuffer("abc");
         System.out.println(ss5.equals(ss6)); //false
+        System.out.println("3*0.1==0.3吗?"+(3*0.1==0.3)+";3*0.1:"+3*0.1+";0.3:"+0.3);//3*0.1==0.3吗?false;3*0.1:0.30000000000000004;0.3:0.3，乘的那个默认双精度加个强制转化就相等了
+
     }
 }
 
