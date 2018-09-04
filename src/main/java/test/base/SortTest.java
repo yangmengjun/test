@@ -94,6 +94,28 @@ public class SortTest extends TestCase {
         }
         printArr(array);
     }
+    /**
+     * 选择排序，每次循环拿出最小（大）的那个和已经排好序的末尾替换。
+     * 时间复杂度 O(n^2)
+     * 空间复杂度O(1)
+     * 一般的递归算法就要有o(n)的空间复杂度了,因为每次递归都要存储返回信息
+     * @param arr
+     * @return
+     */
+    public static int[] chooseSort2(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            int temp = 0;
+            for (int j = i+1; j < arr.length; j++) {
+                if(arr[i]>arr[j]){
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
 
     public void heapSort() {
 
