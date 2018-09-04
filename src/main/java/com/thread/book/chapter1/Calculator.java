@@ -50,7 +50,7 @@ public class Calculator implements Runnable {
 			}
 			threads[i].setName("Thread"+i);
 		}
-		try(PrintWriter pw = new PrintWriter(new File("t.txt"))) {
+		try(PrintWriter pw = new PrintWriter(new File("readMe.txt"))) {
 			for (int i = 0; i < states.length; i++) {
 				pw.println("Main:state of Thread"+i+":"+threads[i].getState());
 				states[i] = threads[i].getState();
