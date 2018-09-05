@@ -10,9 +10,12 @@
 
     <properties>
         <java.version>1.8</java.version>
+
         <lombok.version>1.16.20</lombok.version>
         <junit.version>4.12</junit.version>
         <guava.guava>4.12</guava.guava>
+        <fastjson-version>1.2.47</fastjson-version>
+        <swagger.version>2.7.0</swagger.version>
 
     </properties>
 
@@ -47,6 +50,23 @@
             <groupId>org.mapdb</groupId>
             <artifactId>mapdb</artifactId>
             <version>3.0.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
 
 

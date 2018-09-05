@@ -3,6 +3,8 @@ package com.lamda;
 import com.lamda.entity.Person;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -13,14 +15,28 @@ import java.util.function.Consumer;
 public class LamdaTest {
     public static void main(String[] args) {
         consumerTest();
+        stastistic();
+
+    }
+
+    private static void stastistic() {
+        long start = System.currentTimeMillis();
+        Collection<Person> collection = Arrays.asList(
+                new Person(1,"yang",15,true),
+                new Person(1,"luo",30,true),
+                new Person(2,"hou",75,false));
+        Integer totalPrettyScore = collection.stream().filter(person -> person.getIsPretty()).mapToInt(Person::getScore).sum();
+        Integer totalPoints = collection.stream().parallel().map(person -> person.getScore()).reduce(0,Integer::sum);
+        long end = System.currentTimeMillis();
+        System.out.printf("Total scores is %d and Pretty men total score:%d,takes %d millseconds",totalPoints,totalPrettyScore,end-start);
 
     }
 
     private static void consumerTest() {
         List<Person> personList = new ArrayList<Person>(){
             {
-                add(new Person(1,"yang"));
-                add(new Person(2,"hou"));
+                add(new Person(1,"yang",15,true));
+                add(new Person(2,"hou",75,true));
             }
 
         };
