@@ -11,10 +11,7 @@ import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 
 /**
- * mybatis-plus代码生成器
- * 
- * @author theodo
- * @Date 2017/10/21 12:38
+ * mybatis-plus生成器
  */
 public class MyBatisPlusGenerator {
 
