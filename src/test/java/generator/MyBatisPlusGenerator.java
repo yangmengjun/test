@@ -62,20 +62,16 @@ public class MyBatisPlusGenerator {
         StrategyConfig strategy = new StrategyConfig();
          strategy.setTablePrefix(new String[]{"t_"});// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        //strategy.setInclude(new String[]{"t_case","t_case_batch_assign_record","t_case_bill","t_case_collection_record","t_case_detail","t_case_emergency_contact","t_case_operation_log","t_case_settled","t_case_settled_detail","t_case_settled_bill"});
-       // strategy.setInclude(new String[] { "t_sys_user" }); // 需要生成的表
+       // strategy.setInclude(new String[] { "t_user","t_role" }); // 需要生成的表
         strategy.setInclude(new String[] { "t_user"});
         // 排除生成的表
-        /*strategy.setExclude(new String[]{"qrtz_blob_triggers","qrtz_calendars","qrtz_cron_triggers",
-        		                         "qrtz_fired_triggers","qrtz_job_details","qrtz_locks",
-        		                         "qrtz_paused_trigger_grps","qrtz_scheduler_state","qrtz_simple_triggers",
-        		                         "qrtz_simprop_triggers","qrtz_triggers"}); */
+        /*strategy.setExclude(new String[]{"t_test","t_test2"}); */
         // 自定义实体父类
-     	 strategy.setSuperEntityClass("com.hzed.reminder.common.base.BaseEntity");
+     	 strategy.setSuperEntityClass("com.hy.base.BaseEntity");
      	// 自定义实体，公共字段
      	 strategy.setSuperEntityColumns(new String[] { "id", "creator_id","creator_name","create_time","editor_id","editor_name","edit_time" });
      	// 自定义 mapper 父类
-     	//strategy.setSuperMapperClass("com.hzed.reminder.common.base.BaseMapper");
+     	//strategy.setSuperMapperClass("com.hy.base.BaseMapper");
      	// 自定义 service 父类
      	 strategy.setSuperServiceClass("com.hy.base.IService");
      	// 自定义 service 实现类父类
