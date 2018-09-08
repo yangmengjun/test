@@ -12,7 +12,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
  */
 @SpringBootApplication
 @Slf4j
-@ComponentScan(basePackages = {"com.hy"})
+@ComponentScan(basePackages = {"com"})
 public class Application {
     public static void main(String[] args) {
         ConfigurableEnvironment environment = SpringApplication.run(Application.class, args).getEnvironment();
