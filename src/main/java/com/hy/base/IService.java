@@ -27,9 +27,6 @@ import java.util.Map;
  * <p>
  * 顶级 Service
  * </p>
- *
- * @author hubin
- * @Date 2016-04-20
  */
 public interface IService<T> {
 

@@ -16,7 +16,6 @@ import java.util.Date;
 
 /**
  * 通用实体（通用字段）
- * Created by oukingtim
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

@@ -38,9 +38,6 @@ import java.util.Map;
  * <p>
  * IService 实现类（ 泛型：M 是 mapper 对象，T 是实体 ， PK 是主键泛型 ）
  * </p>
- *
- * @author hubin
- * @Date 2016-04-20
  */
 public class ServiceImpl<M extends BaseMapper<T>, T> implements IService<T> {
 

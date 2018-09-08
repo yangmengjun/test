@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
 import javax.annotation.Resource;
 import java.util.Locale;
 
-/**
- * @author: yangmengjun
- * @date: 2018\6\5 17:15
- */
 @Component
 public class LocaleMessageSourceService {
 
