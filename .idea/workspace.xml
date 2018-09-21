@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad439b66-2bee-4d14-ae34-e72d2d864945" name="Default" comment="update pom">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_9.xml" />
@@ -799,7 +797,7 @@
       <workItem from="1537257887771" duration="2455000" />
       <workItem from="1537320484472" duration="7745000" />
       <workItem from="1537406699904" duration="2570000" />
-      <workItem from="1537492518968" duration="1710000" />
+      <workItem from="1537492518968" duration="1787000" />
     </task>
     <task id="LOCAL-00001" summary="add DFS test file">
       <created>1527748622624</created>
@@ -885,11 +883,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537493424764</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix: commit idea files">
+      <created>1537494275949</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1537494275949</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88580000" />
+    <option name="totallyTimeSpent" value="88657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -947,7 +952,8 @@
     <MESSAGE value="update  mybatis generator" />
     <MESSAGE value="update" />
     <MESSAGE value="fix：print BST result" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix：print BST result" />
+    <MESSAGE value="fix: commit idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: commit idea files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
