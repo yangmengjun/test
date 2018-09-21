@@ -59,13 +59,20 @@ public class BSTDemo {
         List<Node> nodes = Lists.newLinkedList();
         //BST转双向链表，BST的中序排序
         middleFirstSearch(nodes, node4);
+        printNodesList("BST转双向链表（中序排序）",nodes);
         //前序排序
         List<Node> frontNodes = Lists.newLinkedList();
         frontFirstSearch(frontNodes, node4);
+        printNodesList("前序排序",frontNodes);
        //后序排序
         List<Node> backNodes = Lists.newLinkedList();
         backFirstSearch(backNodes,node4);
-        System.out.println(backNodes);
+        printNodesList("后序排序",backNodes);
+    }
+
+    private static void printNodesList(String msg,List<Node> nodes) {
+        System.out.print(msg+":");
+        nodes.stream().forEach(item->{System.out.print(item.id+" ");});
     }
 
     /**
