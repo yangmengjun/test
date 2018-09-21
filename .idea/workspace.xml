@@ -797,7 +797,7 @@
       <workItem from="1537257887771" duration="2455000" />
       <workItem from="1537320484472" duration="7745000" />
       <workItem from="1537406699904" duration="2570000" />
-      <workItem from="1537492518968" duration="1787000" />
+      <workItem from="1537492518968" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="add DFS test file">
       <created>1527748622624</created>
@@ -890,18 +890,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537494275949</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update pom">
+      <created>1537494334456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1537494334456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88657000" />
+    <option name="totallyTimeSpent" value="88698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2152174" sideWeight="0.5021322" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2152174" sideWeight="0.5021322" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988273" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -945,7 +952,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add DFS test file" />
     <MESSAGE value="add file" />
-    <MESSAGE value="update pom" />
     <MESSAGE value="modify lamdatest" />
     <MESSAGE value="add mybatis support" />
     <MESSAGE value="add user module, modify configuration file" />
@@ -953,7 +959,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="fix：print BST result" />
     <MESSAGE value="fix: commit idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: commit idea files" />
+    <MESSAGE value="update pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
