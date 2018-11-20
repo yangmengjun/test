@@ -1,5 +1,6 @@
 package com.lamda;
 
+import com.google.common.collect.Lists;
 import com.lamda.entity.Person;
 
 import java.util.ArrayList;
@@ -14,8 +15,11 @@ import java.util.function.Consumer;
  */
 public class LamdaTest {
     public static void main(String[] args) {
-        consumerTest();
-        stastistic();
+//        consumerTest();
+//        stastistic();
+        List<Integer> numbers = Arrays.asList(1,2,34,5,6);
+        Consumer<Integer> numberPrinter = n-> System.out.println(n);
+        processListNumbers(numbers,numberPrinter);
 
     }
 
@@ -44,5 +48,9 @@ public class LamdaTest {
         //将personList第二个Person的name设置为test
         personConsumer.accept(personList.get(1));
         personList.forEach(e->System.out.println(e.getName()));
+    }
+
+    private static void processListNumbers(List<Integer> numbers,Consumer<Integer> processor){
+         numbers.stream().forEach(number->processor.accept(number));
     }
 }
