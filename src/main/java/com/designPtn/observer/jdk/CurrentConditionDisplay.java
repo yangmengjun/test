@@ -5,12 +5,17 @@ import com.designPtn.observer.DisplayElement;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * 使用jdk的包实现观察者模式
+ */
 public class CurrentConditionDisplay implements Observer,DisplayElement {
 
     Observable observable;
 
     private float temprature;
     private float humidity;
+
+    public CurrentConditionDisplay(){}
 
     public CurrentConditionDisplay(Observable observable){
         this.observable = observable;
