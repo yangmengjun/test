@@ -17,7 +17,7 @@ public @interface Description {
 	 * 可以通过反射机制拿出注解的相关信息
 	 * @return
 	 */
-	String value(); //如果只有
+	String value();
 	
 	int type();
 }
