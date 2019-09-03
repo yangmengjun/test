@@ -2,7 +2,7 @@ package com.designPtn.factory.model.impl;
 
 import com.designPtn.factory.model.Pizza;
 
-public class ChicagoVeggieStylePizza implements Pizza {
+public class ChicagoVeggieStylePizza extends Pizza {
     @Override
     public void prepare() {
         System.out.println("芝加哥素菜风味比萨准备中。。。");

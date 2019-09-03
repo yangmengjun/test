@@ -5,12 +5,14 @@ package com.designPtn.factory.model;
  * Pizza 和PizzaStore工厂属于平级关系
  */
 
-public interface Pizza {
+public abstract class Pizza {
 
-    public void prepare();
-    public void bake();
-    public void cut();
-    public void box();
+    String name;
 
-    public void flavor();
+    public abstract void prepare();
+    public abstract void bake();
+    public abstract void cut();
+    public abstract void box();
+
+    public abstract void flavor();
 }
