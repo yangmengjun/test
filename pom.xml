@@ -12,7 +12,7 @@
         <java.version>1.8</java.version>
 
         <lombok.version>1.16.20</lombok.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <guava.guava>4.12</guava.guava>
         <fastjson-version>1.2.47</fastjson-version>
         <swagger.version>2.7.0</swagger.version>
