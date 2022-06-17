@@ -14,7 +14,7 @@
         <lombok.version>1.16.20</lombok.version>
         <junit.version>4.12</junit.version>
         <guava.guava>4.12</guava.guava>
-        <fastjson-version>1.2.47</fastjson-version>
+        <fastjson-version>1.2.83</fastjson-version>
         <swagger.version>2.7.0</swagger.version>
         <druid.version>1.1.9</druid.version>
         <jasypt-spring-boot-starter.version>1.18</jasypt-spring-boot-starter.version>
